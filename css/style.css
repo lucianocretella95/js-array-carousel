@@ -1,6 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 1rem;
+}
+
+.slideshow {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.slide {
+  display: none;
+  width: 15rem;
+  object-fit: cover;
+}
+
+.active {
+  display: block;
+}
+
+#btnNext,
+#btnPrev {
+  margin-top: 1rem;
 }
