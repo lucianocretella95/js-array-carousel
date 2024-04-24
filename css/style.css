@@ -12,12 +12,13 @@ body {
 .slideshow {
   padding-left: 5rem;
   padding-right: 5rem;
+  object-fit: contain;
 }
 
 .slide {
   display: none;
   width: 15rem;
-  object-fit: cover;
+  
 }
 
 .active {
